@@ -10,7 +10,7 @@ languages:
 - json
 - bicep
 ---
-# Azure Tags - Using Azure Tag Strategy for Self-Discovery
+# Azure Tags - An Azure Tag Strategy for Self-Discovery
 
 This template demonstrates how you can use Azure resource tags for application deployments to self-discover infrastructure resources.
 

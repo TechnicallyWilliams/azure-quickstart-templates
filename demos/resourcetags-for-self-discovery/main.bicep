@@ -4,7 +4,7 @@ param location string = resourceGroup().location
 @description('Specifies the environment in which to deploy the azure container registry.')
 param environment string = 'dev'
 
-@description('A solution and environment tag to support self-discovery of resources for application deployments.')
+@description('A solution and environment tag to support self-discovery of a resource group for application deployments.')
 var solutionDiscoveryTags = { 'solution-id': 'self-discovery-demo', environment: environment }
 
 @description('Specifies the name of the managed identity.')
